@@ -8,7 +8,7 @@ first_experiment_id: int = input("Start-ID eingeben: ")
 try:
     first_experiment_id = int(first_experiment_id)
 except ValueError:
-    print("❌ Fehler: Die Eingabe muss eine ganze Zahl sein.")
+    print("Fehler: Die Eingabe muss eine ganze Zahl sein.")
     exit()
 
 experiments: Dict[int, Dict[str, str]] = {}
